@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bleu: #1D3557;
+  --color-bleu-night: #0D2040;
+  --color-cream: #FDFBF7;
+  --color-cream-parchment: #F2EDE4;
+  --color-amber: #D48B1C;
+  --color-bistro: #1A1412;
+}
+
+body {
+  background-color: #FDFBF7;
+  color: #1A1412;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Textura Sutil de Papel Linho Artesanal (Parisian Café Atmosphere) */
+.bistro-linen-bg {
+  background-color: #FDFBF7;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(29, 53, 87, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(212, 139, 28, 0.05) 0%, transparent 50%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.015) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.015) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 3rem 3rem, 3rem 3rem;
+}
+
+/* Iluminação Volumétrica Azul Cobalto & Ocre */
+.bistro-glow-bleu {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90vw;
+  max-width: 1100px;
+  height: 480px;
+  background: radial-gradient(ellipse at center, rgba(29, 53, 87, 0.07) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bistro-glow-amber {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(212, 139, 28, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Botões Táteis com Estilo Bistrô Francês */
+.btn-bistro-bleu {
+  background-color: #1D3557;
+  color: #FFFFFF;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(29, 53, 87, 0.25);
+}
+
+.btn-bistro-bleu:hover {
+  background-color: #0D2040;
+  box-shadow: 0 6px 20px rgba(29, 53, 87, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-bistro-bleu:active {
+  transform: scale(0.97);
+}
+
+.btn-bistro-gold {
+  background: linear-gradient(135deg, #D48B1C 0%, #B9770E 100%);
+  color: #FFFFFF;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(212, 139, 28, 0.3);
+}
+
+.btn-bistro-gold:hover {
+  background: linear-gradient(135deg, #E9A825 0%, #D48B1C 100%);
+  box-shadow: 0 8px 22px rgba(212, 139, 28, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-bistro-gold:active {
+  transform: scale(0.97);
+}
+
+/* Card com Borda Editorial Sutil */
+.card-bistro {
+  background: #FFFFFF;
+  border: 1px solid #E8E2D5;
+  box-shadow: 0 4px 20px rgba(26, 20, 18, 0.04);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-bistro:hover {
+  border-color: #1D3557;
+  box-shadow: 0 12px 30px rgba(26, 20, 18, 0.08);
+  transform: translateY(-3px);
+}

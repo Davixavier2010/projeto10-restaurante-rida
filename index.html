@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LE PETIT BLEU // Café & Bistrô Francês • Gastronomia Artesanal</title>
+    <meta name="description" content="Bistrô e café francês de especialidade nos Jardins, São Paulo. Viennoiserie artesanal, brunch autoral, clássicos da culinária francesa e vinhos selecionados." />
+
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bleu: {
+                DEFAULT: '#1D3557',
+                night: '#0D2040',
+                cobalt: '#1A365D',
+                ocean: '#2A6F97',
+                light: '#E8F1F5'
+              },
+              cream: {
+                DEFAULT: '#FDFBF7',
+                linen: '#F9F7F2',
+                parchment: '#F2EDE4',
+                stone: '#E8E2D5',
+                border: '#E2DBD0'
+              },
+              amber: {
+                DEFAULT: '#D48B1C',
+                gold: '#E9A825',
+                warm: '#B9770E'
+              },
+              bistro: {
+                DEFAULT: '#1A1412',
+                charcoal: '#221C1A',
+                coffee: '#332924',
+                slate: '#6B5E57',
+                muted: '#8C7E75'
+              },
+              terracotta: '#C8644A'
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'Georgia', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+              mono: ['"Space Grotesk"', 'monospace']
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body class="bg-[#FDFBF7] text-[#1A1412] selection:bg-[#1D3557] selection:text-white overflow-x-hidden antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
