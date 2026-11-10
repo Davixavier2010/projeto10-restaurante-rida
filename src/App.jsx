@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import SiteOpening from './components/SiteOpening';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ExperienceSection from './components/ExperienceSection';
@@ -9,10 +10,17 @@ import FooterSection from './components/FooterSection';
 import { MessageCircle } from 'lucide-react';
 
 export default function App() {
+  const [showOpening, setShowOpening] = useState(true);
+
   return (
     <div className="relative min-h-screen bistro-linen-bg text-[#1A1412] font-sans selection:bg-[#1D3557] selection:text-white flex flex-col">
+      {/* 0. Abertura Animada: Fumaça & Xícara de Café */}
+      {showOpening && (
+        <SiteOpening onComplete={() => setShowOpening(false)} />
+      )}
+
       {/* 1. Barra de Navegação */}
-      <Navbar />
+      <Navbar onOpenOpening={() => setShowOpening(true)} />
 
       {/* 2. Hero Section: Brunch Editorial & Destaques */}
       <HeroSection />

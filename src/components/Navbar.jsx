@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Coffee, MessageCircle, Menu, X, Clock, MapPin } from 'lucide-react';
 
-export default function Navbar() {
+export default function Navbar({ onOpenOpening }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -55,6 +55,17 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+
+          {onOpenOpening && (
+            <button
+              onClick={onOpenOpening}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#1D3557]/5 hover:bg-[#1D3557]/10 text-[#1D3557] text-xs font-mono transition-colors border border-[#1D3557]/15 cursor-pointer"
+              title="Rever animação de abertura do café"
+            >
+              <Coffee className="w-3.5 h-3.5 text-[#E9A825]" />
+              <span>Abertura</span>
+            </button>
+          )}
         </nav>
 
         {/* CTA WhatsApp & Mobile Toggle */}

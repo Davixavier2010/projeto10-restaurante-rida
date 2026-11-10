@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   cacheDir: './.vite_cache',
   resolve: {
-    dedupe: ['react', 'react-dom'],
+    dedupe: ['react', 'react-dom', 'framer-motion'],
     preserveSymlinks: true
   },
   server: {
