@@ -44,9 +44,9 @@ export default function HeroSection() {
           </div>
 
           {/* Main Editorial Headlines */}
-          <h1 className="font-sora text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#1D3557] leading-[1.15] max-w-4xl">
+          <h1 className="font-sora text-3xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-[#1D3557] leading-[1.15] max-w-4xl">
             A Arte da Gastronomia Francesa <br className="hidden sm:inline" />
-            <span className="font-sora font-semibold text-[#2C221E] underline decoration-[#D48B1C]/40 decoration-wavy decoration-1">
+            <span className="font-sora font-medium text-[#2C221E] underline decoration-[#D48B1C]/40 decoration-wavy decoration-1">
               com o frescor do nosso tempo.
             </span>
           </h1>

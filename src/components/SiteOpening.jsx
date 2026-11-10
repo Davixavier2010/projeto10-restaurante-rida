@@ -127,14 +127,14 @@ export default function SiteOpening({ onComplete }) {
         </div>
 
         {/* =====================================================================
-            NOME DO LUGAR: FONTE SORA (MODERNA, LIMPA & ELEGANTE)
+            NOME DO LUGAR: FONTE SORA (PESO 600 SEMIBOLD, ELEGANTE & LIMPO)
             ===================================================================== */}
         <div className="mt-6 space-y-1.5">
-          <h1 className="text-2xl sm:text-3xl font-sora font-extrabold tracking-[0.22em] text-[#1D3557] uppercase pl-[0.22em]">
+          <h1 className="text-2xl sm:text-3xl font-sora font-semibold tracking-[0.22em] text-[#1D3557] uppercase pl-[0.22em]">
             LE PETIT BLEU
           </h1>
 
-          <p className="text-[11px] sm:text-xs font-sora font-semibold tracking-[0.26em] text-[#8C7E75] uppercase pl-[0.26em]">
+          <p className="text-[11px] sm:text-xs font-sora font-normal tracking-[0.26em] text-[#8C7E75] uppercase pl-[0.26em]">
             Café & Bistrô Francês
           </p>
         </div>

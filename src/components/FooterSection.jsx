@@ -19,7 +19,7 @@ export default function FooterSection() {
               <div className="w-10 h-10 rounded-full bg-[#1D3557] flex items-center justify-center text-[#FDFBF7]">
                 <Coffee className="w-5 h-5 text-[#E9A825]" />
               </div>
-              <span className="font-sora text-xl font-extrabold tracking-[0.16em] text-white uppercase pl-[0.16em]">
+              <span className="font-sora text-xl font-semibold tracking-[0.16em] text-white uppercase pl-[0.16em]">
                 LE PETIT BLEU
               </span>
             </div>

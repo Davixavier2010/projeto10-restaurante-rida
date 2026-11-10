@@ -46,9 +46,9 @@ export default function ExperienceSection() {
             <HeartHandshake className="w-3.5 h-3.5 text-[#D48B1C]" />
             Nossa Filosofia Culinária
           </div>
-          <h2 className="font-sora text-3xl sm:text-5xl font-extrabold text-[#1D3557] tracking-tight leading-tight">
+          <h2 className="font-sora text-3xl sm:text-5xl font-semibold text-[#1D3557] tracking-tight leading-tight">
             A Autenticidade do Terroir <br className="hidden sm:inline" />
-            <span className="font-sora font-medium text-[#2C221E]">com a delicadeza de Paris</span>
+            <span className="font-sora font-normal text-[#2C221E]">com a delicadeza de Paris</span>
           </h2>
           <p className="mt-4 text-[#6B5E57] text-base leading-relaxed">
             Cada receita honra a tradição gastronômica francesa com respeito rigoroso aos processos, tempo de cura e técnicas centenárias.

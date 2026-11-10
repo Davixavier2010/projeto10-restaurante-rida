@@ -135,7 +135,7 @@ export default function MenuSection() {
           <Sparkles className="w-3.5 h-3.5" />
           Nosso Cardápio Autoral
         </div>
-        <h2 className="font-sora text-3xl sm:text-5xl font-extrabold text-[#1D3557] tracking-tight">
+        <h2 className="font-sora text-3xl sm:text-5xl font-semibold text-[#1D3557] tracking-tight">
           Sabores Preparados Diariamente com Cuidado
         </h2>
         <p className="mt-4 text-[#6B5E57] text-base leading-relaxed">
