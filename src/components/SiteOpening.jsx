@@ -127,10 +127,10 @@ export default function SiteOpening({ onComplete }) {
         </div>
 
         {/* =====================================================================
-            NOME DO LUGAR: FONTE SORA (PESO 600 SEMIBOLD, ELEGANTE & LIMPO)
+            NOME DO LUGAR: FONTE SORA UNIFORME (AMBOS COM O MESMO PESO: FONT-NORMAL 400)
             ===================================================================== */}
         <div className="mt-6 space-y-1.5">
-          <h1 className="text-2xl sm:text-3xl font-sora font-semibold tracking-[0.22em] text-[#1D3557] uppercase pl-[0.22em]">
+          <h1 className="text-2xl sm:text-3xl font-sora font-normal tracking-[0.22em] text-[#1D3557] uppercase pl-[0.22em]">
             LE PETIT BLEU
           </h1>
 

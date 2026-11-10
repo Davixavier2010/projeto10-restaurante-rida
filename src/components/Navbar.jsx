@@ -35,10 +35,10 @@ export default function Navbar({ onOpenOpening }) {
             <Coffee className="w-5 h-5 text-[#E9A825]" />
           </div>
           <div className="flex flex-col">
-            <span className="font-sora text-base sm:text-lg font-semibold tracking-[0.16em] text-[#1D3557] uppercase pl-[0.16em]">
+            <span className="font-sora text-base sm:text-lg font-normal tracking-[0.16em] text-[#1D3557] uppercase pl-[0.16em]">
               LE PETIT BLEU
             </span>
-            <span className="text-[10px] font-mono tracking-widest text-[#8C7E75] uppercase">
+            <span className="text-[10px] font-mono tracking-widest text-[#8C7E75] uppercase font-normal">
               BISTRÔ & CAFÉ // JARDINS SP
             </span>
           </div>

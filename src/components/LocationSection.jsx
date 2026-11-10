@@ -6,14 +6,14 @@ export default function LocationSection() {
     <section id="localizacao" className="py-20 md:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto mb-14">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1D3557]/10 text-[#1D3557] text-xs font-sora font-semibold tracking-wider uppercase mb-3">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1D3557]/10 text-[#1D3557] text-xs font-sora font-normal tracking-wider uppercase mb-3">
           <MapPin className="w-3.5 h-3.5 text-[#D48B1C]" />
           Visite Nosso Espaço
         </div>
-        <h2 className="font-sora text-3xl sm:text-5xl font-semibold text-[#1D3557] tracking-tight">
+        <h2 className="font-sora text-3xl sm:text-5xl font-normal text-[#1D3557] tracking-tight">
           Um Refúgio Parisiense no Coração dos Jardins
         </h2>
-        <p className="mt-4 text-[#6B5E57] text-base leading-relaxed">
+        <p className="mt-4 text-[#6B5E57] text-base leading-relaxed font-sora font-normal">
           Localizado na arborizada Alameda Lorena, o Le Petit Bleu foi desenhado para transportar você às calçadas mais nobres de Saint-Germain-des-Prés.
         </p>
       </div>
@@ -24,14 +24,14 @@ export default function LocationSection() {
         <div className="lg:col-span-5 card-bistro rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
           <div className="space-y-6">
             <div>
-              <div className="flex items-center gap-2 text-xs font-sora font-bold text-[#D48B1C] uppercase tracking-wider mb-2">
+              <div className="flex items-center gap-2 text-xs font-sora font-normal text-[#D48B1C] uppercase tracking-wider mb-2">
                 <MapPin className="w-4 h-4" />
                 <span>Endereço & Acesso</span>
               </div>
-              <h3 className="font-sora text-xl sm:text-2xl font-bold text-[#1D3557]">
+              <h3 className="font-sora text-xl sm:text-2xl font-normal text-[#1D3557]">
                 Alameda Lorena, 1427
               </h3>
-              <p className="text-sm text-[#6B5E57] mt-1">
+              <p className="text-sm text-[#6B5E57] mt-1 font-sora font-normal">
                 Jardins, São Paulo — SP • CEP 01424-001
               </p>
             </div>
@@ -40,7 +40,7 @@ export default function LocationSection() {
               <div className="flex items-start gap-3">
                 <Car className="w-5 h-5 text-[#1D3557] shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-xs font-sora font-bold text-[#1D3557]">
+                  <div className="text-xs font-sora font-normal text-[#1D3557]">
                     Valet Cortesia no Local
                   </div>
                   <div className="text-xs text-[#6B5E57] mt-0.5">
@@ -51,7 +51,7 @@ export default function LocationSection() {
             </div>
 
             <div>
-              <div className="flex items-center gap-2 text-xs font-sora font-bold text-[#D48B1C] uppercase tracking-wider mb-2">
+              <div className="flex items-center gap-2 text-xs font-sora font-normal text-[#D48B1C] uppercase tracking-wider mb-2">
                 <Clock className="w-4 h-4" />
                 <span>Horários de Funcionamento</span>
               </div>
