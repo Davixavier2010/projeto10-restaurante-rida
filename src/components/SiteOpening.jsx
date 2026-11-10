@@ -127,15 +127,15 @@ export default function SiteOpening({ onComplete }) {
         </div>
 
         {/* =====================================================================
-            APENAS O NOME DO LUGAR (Tipografia Editorial Parisiense)
+            NOME DO LUGAR: TIPOGRAFIA CINZEL LUXO PARIS & CORMORANT ITALIC
             ===================================================================== */}
-        <div className="mt-5 space-y-1">
-          <h1 className="text-2xl sm:text-3xl font-serif font-bold tracking-tight text-[#1D3557]">
+        <div className="mt-6 space-y-1.5">
+          <h1 className="text-2xl sm:text-3xl font-cinzel font-bold tracking-[0.24em] text-[#1D3557] uppercase pl-[0.24em]">
             LE PETIT BLEU
           </h1>
 
-          <p className="text-[11px] font-mono uppercase tracking-[0.28em] text-[#8C7E75]">
-            Café & Bistrô Francês
+          <p className="text-xs sm:text-sm font-serif italic tracking-[0.15em] text-[#8C7E75]">
+            Café & Bistrô Parisien
           </p>
         </div>
 
