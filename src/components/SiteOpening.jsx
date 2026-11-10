@@ -4,10 +4,10 @@ export default function SiteOpening({ onComplete }) {
   const [hasExited, setHasExited] = useState(false);
 
   useEffect(() => {
-    // Transição suave e limpa após 2.5 segundos
+    // Transição suave e limpa após 3.8 segundos para dar tempo de apreciar o giro suave
     const timer = setTimeout(() => {
       handleExit();
-    }, 2500);
+    }, 3800);
 
     return () => clearTimeout(timer);
   }, []);
@@ -94,29 +94,32 @@ export default function SiteOpening({ onComplete }) {
               />
             </svg>
 
-            <defs>
-              <linearGradient id="steam-real-amber" x1="0" y1="1" x2="0" y2="0">
-                <stop offset="0%" stopColor="#C49B66" stopOpacity="0.6" />
-                <stop offset="50%" stopColor="#D4A774" stopOpacity="0.35" />
-                <stop offset="100%" stopColor="#FAF8F5" stopOpacity="0" />
-              </linearGradient>
-              <linearGradient id="steam-real-warm" x1="0" y1="1" x2="0" y2="0">
-                <stop offset="0%" stopColor="#A87948" stopOpacity="0.65" />
-                <stop offset="50%" stopColor="#C49B66" stopOpacity="0.4" />
-                <stop offset="100%" stopColor="#FAF8F5" stopOpacity="0" />
-              </linearGradient>
-            </defs>
+            <svg width="0" height="0" className="absolute">
+              <defs>
+                <linearGradient id="steam-real-amber" x1="0" y1="1" x2="0" y2="0">
+                  <stop offset="0%" stopColor="#C49B66" stopOpacity="0.6" />
+                  <stop offset="50%" stopColor="#D4A774" stopOpacity="0.35" />
+                  <stop offset="100%" stopColor="#FAF8F5" stopOpacity="0" />
+                </linearGradient>
+                <linearGradient id="steam-real-warm" x1="0" y1="1" x2="0" y2="0">
+                  <stop offset="0%" stopColor="#A87948" stopOpacity="0.65" />
+                  <stop offset="50%" stopColor="#C49B66" stopOpacity="0.4" />
+                  <stop offset="100%" stopColor="#FAF8F5" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
 
           {/* =================================================================
-              FOTOGRAFIA REAL ARTESANAL DO CAFÉ (XÍCARA CERÂMICA BLEU DE FRANCE)
+              FOTOGRAFIA REAL ARTESANAL DO CAFÉ COM GIRO LENTO NO PRÓPRIO EIXO
               ================================================================= */}
           <div className="relative p-1.5 rounded-full bg-gradient-to-b from-[#E9A825]/40 via-[#FAF8F5] to-[#E9A825]/20 shadow-[0_12px_30px_rgba(29,53,87,0.12)]">
-            <div className="w-44 h-44 sm:w-52 sm:h-52 rounded-full overflow-hidden border border-[#E8E2D5] bg-[#F2EDE4]">
+            <div className="w-44 h-44 sm:w-52 sm:h-52 rounded-full overflow-hidden border border-[#E8E2D5] bg-[#F2EDE4] flex items-center justify-center">
               <img
                 src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=800&auto=format&fit=crop"
                 alt="Café & Bistrô Le Petit Bleu"
-                className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover animate-spin-slow will-change-transform"
+                style={{ transformOrigin: 'center center' }}
                 loading="eager"
               />
             </div>

@@ -232,3 +232,17 @@ body {
 .animate-float-cup {
   animation: floatGentle 4s ease-in-out infinite;
 }
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 22s linear infinite;
+  transform-origin: center center;
+}
