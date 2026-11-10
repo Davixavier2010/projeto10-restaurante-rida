@@ -131,11 +131,11 @@ export default function MenuSection() {
     <section id="cardapio" className="py-20 md:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-12">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D48B1C]/10 text-[#D48B1C] text-xs font-mono font-semibold tracking-wider uppercase mb-3">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D48B1C]/10 text-[#D48B1C] text-xs font-sora font-semibold tracking-wider uppercase mb-3">
           <Sparkles className="w-3.5 h-3.5" />
           Nosso Cardápio Autoral
         </div>
-        <h2 className="font-serif text-3xl sm:text-5xl font-bold text-[#1D3557] tracking-tight">
+        <h2 className="font-sora text-3xl sm:text-5xl font-extrabold text-[#1D3557] tracking-tight">
           Sabores Preparados Diariamente com Cuidado
         </h2>
         <p className="mt-4 text-[#6B5E57] text-base leading-relaxed">
@@ -150,7 +150,7 @@ export default function MenuSection() {
               <button
                 key={cat.id}
                 onClick={() => setActiveTab(cat.id)}
-                className={`px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 active:scale-[0.97] ${
+                className={`px-4 py-2.5 rounded-full text-xs sm:text-sm font-sora font-semibold transition-all duration-200 active:scale-[0.97] ${
                   isActive
                     ? 'bg-[#1D3557] text-white shadow-md'
                     : 'bg-white hover:bg-[#F2EDE4] text-[#2C221E] border border-[#E8E2D5]'
@@ -181,7 +181,7 @@ export default function MenuSection() {
                 />
                 <div className="absolute top-3 left-3">
                   <span
-                    className={`text-[10px] font-mono uppercase tracking-wider font-bold text-white px-2.5 py-1 rounded-full shadow-sm ${item.badgeColor}`}
+                    className={`text-[10px] font-sora uppercase tracking-wider font-bold text-white px-2.5 py-1 rounded-full shadow-sm ${item.badgeColor}`}
                   >
                     {item.tag}
                   </span>
@@ -191,12 +191,12 @@ export default function MenuSection() {
               {/* Dish Info */}
               <div className="p-5 sm:p-6">
                 <div className="flex items-baseline justify-between gap-2">
-                  <h3 className="font-serif text-lg sm:text-xl font-bold text-[#1D3557] group-hover:text-[#D48B1C] transition-colors">
+                  <h3 className="font-sora text-base sm:text-lg font-bold text-[#1D3557] group-hover:text-[#D48B1C] transition-colors">
                     {item.name}
                   </h3>
                 </div>
 
-                <div className="text-[11px] font-mono text-[#8C7E75] mt-1">
+                <div className="text-[11px] font-sora text-[#8C7E75] mt-1">
                   {item.details}
                 </div>
 
@@ -209,10 +209,10 @@ export default function MenuSection() {
             {/* Bottom Price & Order CTA */}
             <div className="px-5 pb-5 sm:px-6 sm:pb-6 pt-2 border-t border-[#F2EDE4] flex items-center justify-between gap-3">
               <div>
-                <span className="text-[10px] font-mono text-[#8C7E75] uppercase block">
+                <span className="text-[10px] font-sora text-[#8C7E75] uppercase block font-semibold">
                   Valor
                 </span>
-                <span className="font-serif text-lg sm:text-xl font-bold text-[#1D3557]">
+                <span className="font-sora text-lg sm:text-xl font-extrabold text-[#1D3557]">
                   {item.price}
                 </span>
               </div>

@@ -42,13 +42,13 @@ export default function ExperienceSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1D3557]/10 text-[#1D3557] text-xs font-mono font-semibold tracking-wider uppercase mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1D3557]/10 text-[#1D3557] text-xs font-sora font-semibold tracking-wider uppercase mb-3">
             <HeartHandshake className="w-3.5 h-3.5 text-[#D48B1C]" />
             Nossa Filosofia Culinária
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold text-[#1D3557] tracking-tight leading-tight">
+          <h2 className="font-sora text-3xl sm:text-5xl font-extrabold text-[#1D3557] tracking-tight leading-tight">
             A Autenticidade do Terroir <br className="hidden sm:inline" />
-            <span className="italic font-normal text-[#2C221E]">com a delicadeza de Paris</span>
+            <span className="font-sora font-medium text-[#2C221E]">com a delicadeza de Paris</span>
           </h2>
           <p className="mt-4 text-[#6B5E57] text-base leading-relaxed">
             Cada receita honra a tradição gastronômica francesa com respeito rigoroso aos processos, tempo de cura e técnicas centenárias.
@@ -74,10 +74,10 @@ export default function ExperienceSection() {
                     </span>
                   </div>
 
-                  <h3 className="font-serif text-xl font-bold text-[#1D3557] group-hover:text-[#D48B1C] transition-colors">
+                  <h3 className="font-sora text-lg sm:text-xl font-bold text-[#1D3557] group-hover:text-[#D48B1C] transition-colors">
                     {p.title}
                   </h3>
-                  <p className="text-xs font-mono font-semibold text-[#D48B1C] mt-1">
+                  <p className="font-sora text-xs font-semibold text-[#D48B1C] mt-1">
                     {p.subtitle}
                   </p>
                   <p className="text-xs sm:text-sm text-[#6B5E57] mt-3 leading-relaxed">

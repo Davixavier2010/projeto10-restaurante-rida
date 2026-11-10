@@ -38,15 +38,15 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Top Tagline Badge */}
         <div className="flex flex-col items-center text-center mb-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1D3557]/8 border border-[#1D3557]/15 text-[#1D3557] text-xs font-mono font-semibold tracking-widest uppercase mb-4 shadow-xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1D3557]/8 border border-[#1D3557]/15 text-[#1D3557] text-xs font-sora font-semibold tracking-wider uppercase mb-4 shadow-xs">
             <span className="w-1.5 h-1.5 rounded-full bg-[#D48B1C]" />
             Bistrô Francês & Café de Especialidade // Jardins SP
           </div>
 
           {/* Main Editorial Headlines */}
-          <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#1D3557] leading-[1.08] max-w-4xl">
+          <h1 className="font-sora text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#1D3557] leading-[1.15] max-w-4xl">
             A Arte da Gastronomia Francesa <br className="hidden sm:inline" />
-            <span className="italic font-normal text-[#2C221E] underline decoration-[#D48B1C]/40 decoration-wavy decoration-1">
+            <span className="font-sora font-semibold text-[#2C221E] underline decoration-[#D48B1C]/40 decoration-wavy decoration-1">
               com o frescor do nosso tempo.
             </span>
           </h1>
@@ -117,10 +117,10 @@ export default function HeroSection() {
                     </span>
                   </div>
                   <div>
-                    <h3 className="font-serif font-bold text-sm sm:text-base text-[#1D3557]">
+                    <h3 className="font-sora font-bold text-sm sm:text-base text-[#1D3557]">
                       {item.title}
                     </h3>
-                    <p className="text-xs font-semibold text-[#D48B1C] mt-0.5">
+                    <p className="font-sora text-xs font-semibold text-[#D48B1C] mt-0.5">
                       {item.sub}
                     </p>
                     <p className="text-[11px] text-[#6B5E57] mt-1 line-clamp-1">

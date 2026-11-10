@@ -61,11 +61,11 @@ export default function ReservationConcierge() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1D3557]/10 text-[#1D3557] text-xs font-mono font-semibold tracking-wider uppercase mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1D3557]/10 text-[#1D3557] text-xs font-sora font-semibold tracking-wider uppercase mb-3">
             <Sparkles className="w-3.5 h-3.5 text-[#D48B1C]" />
             Concierge Digital RIDA
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold text-[#1D3557] tracking-tight">
+          <h2 className="font-sora text-3xl sm:text-5xl font-extrabold text-[#1D3557] tracking-tight">
             Reserve a Mesa Ideal Para o Seu Momento
           </h2>
           <p className="mt-4 text-[#6B5E57] text-base leading-relaxed">
@@ -79,7 +79,7 @@ export default function ReservationConcierge() {
           <div className="lg:col-span-7 bg-white rounded-3xl p-6 sm:p-8 border border-[#E8E2D5] shadow-sm space-y-8">
             {/* 1. Occasion */}
             <div>
-              <label className="block text-xs font-mono uppercase tracking-wider font-bold text-[#1D3557] mb-3">
+              <label className="block text-xs font-sora uppercase tracking-wider font-bold text-[#1D3557] mb-3">
                 1. Qual é a sua ocasião?
               </label>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -101,7 +101,7 @@ export default function ReservationConcierge() {
                           isSelected ? 'text-[#1D3557]' : 'text-[#8C7E75]'
                         }`}
                       />
-                      <span className="font-serif text-sm font-bold text-[#1A1412]">
+                      <span className="font-sora text-sm font-bold text-[#1A1412]">
                         {o.label}
                       </span>
                     </button>
@@ -112,7 +112,7 @@ export default function ReservationConcierge() {
 
             {/* 2. Number of Guests */}
             <div>
-              <label className="block text-xs font-mono uppercase tracking-wider font-bold text-[#1D3557] mb-3">
+              <label className="block text-xs font-sora uppercase tracking-wider font-bold text-[#1D3557] mb-3">
                 2. Quantas pessoas acompanharão?
               </label>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -128,7 +128,7 @@ export default function ReservationConcierge() {
                           : 'border-[#E8E2D5] text-[#2C221E] hover:bg-[#FDFBF7]'
                       }`}
                     >
-                      <span className="font-mono text-xs sm:text-sm font-semibold">
+                      <span className="font-sora text-xs sm:text-sm font-semibold">
                         {g.label}
                       </span>
                     </button>
@@ -137,7 +137,7 @@ export default function ReservationConcierge() {
               </div>
             </div>
 
-            <div className="pt-4 border-t border-[#F2EDE4] flex items-center gap-2 text-xs font-mono text-[#8C7E75]">
+            <div className="pt-4 border-t border-[#F2EDE4] flex items-center gap-2 text-xs font-sora text-[#8C7E75]">
               <CheckCircle className="w-4 h-4 text-[#25D366]" />
               <span>Confirmação sem custo de taxa com atendimento exclusivo pelo WhatsApp.</span>
             </div>
@@ -148,16 +148,16 @@ export default function ReservationConcierge() {
             <div className="absolute top-0 right-0 w-48 h-48 bg-[#E9A825]/10 rounded-full blur-2xl pointer-events-none" />
 
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-[#E9A825] text-[10px] font-mono uppercase tracking-widest font-semibold mb-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-[#E9A825] text-[10px] font-sora uppercase tracking-widest font-semibold mb-4">
                 <Sparkles className="w-3.5 h-3.5" />
                 Recomendação Personalizada
               </div>
 
-              <h3 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-white mb-2">
+              <h3 className="font-sora text-xl sm:text-2xl font-bold tracking-tight text-white mb-2">
                 {rec.table}
               </h3>
 
-              <div className="text-xs font-mono text-[#E9A825] mb-4">
+              <div className="text-xs font-sora font-semibold text-[#E9A825] mb-4">
                 Horário Sugerido: {rec.schedule}
               </div>
 

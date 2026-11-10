@@ -19,7 +19,7 @@ export default function FooterSection() {
               <div className="w-10 h-10 rounded-full bg-[#1D3557] flex items-center justify-center text-[#FDFBF7]">
                 <Coffee className="w-5 h-5 text-[#E9A825]" />
               </div>
-              <span className="font-serif text-2xl font-bold tracking-tight text-white">
+              <span className="font-sora text-xl font-extrabold tracking-[0.16em] text-white uppercase pl-[0.16em]">
                 LE PETIT BLEU
               </span>
             </div>
@@ -36,7 +36,7 @@ export default function FooterSection() {
 
           {/* Col 2: Fast Navigation */}
           <div className="md:col-span-3 space-y-3">
-            <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-white/50">
+            <h4 className="font-sora text-xs font-bold uppercase tracking-wider text-white/50">
               Navegação
             </h4>
             <ul className="space-y-2 text-sm text-[#FDFBF7]/80">
@@ -65,7 +65,7 @@ export default function FooterSection() {
 
           {/* Col 3: Direct WhatsApp Channel */}
           <div className="md:col-span-4 space-y-4">
-            <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-white/50">
+            <h4 className="font-sora text-xs font-bold uppercase tracking-wider text-white/50">
               Canal de Conversão
             </h4>
             <p className="text-xs text-[#8C7E75]">
